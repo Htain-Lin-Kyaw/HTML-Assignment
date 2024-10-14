@@ -1,0 +1,70 @@
+<!Doctype html>
+<html>
+<head>
+<title>assignment2</title>
+<style>
+ h1{
+ font-size:30px;
+ text-decoration:underline;
+ text-align:center;
+ }
+form{
+  background-color:aqua;
+  border:none;
+  width:500px;
+  height:300px;
+  padding:20px 30px;
+}
+div{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+}
+#button1{
+  background-color:lime;
+  color:white;
+  width:100px;
+  height:30px;
+  border:1px solid black;
+  border-radius:5px;
+}  
+#button2{
+  background-color:mediumblue;
+  color:white;
+  width:100px;
+  height:30px;
+  border:1px solid black;
+ border-radius:5px;
+}
+</style>
+</head>
+<body>
+<h1>Project Management</h1>
+<form>
+ <label for="projectname">Project Name</label>
+ <input type="text" id="projectname" name="projectname"><br><br>
+ <label for="assignedto">Assigned to</label>
+ <select id="assignedto" name="assignedto">
+    <option value="ermerrypetision">Er Merry Petision</option>
+    <option value="johnsmith">John Smith</option>
+ </select><br><br>
+ <label for="startdate">Start Date</label>
+ <input type="date" id="startdate" name="startname"><br><br>
+ <label for="enddate">End Date</label>
+ <input type="date" id="enddate" name="enddate"><br><br>
+ <label for="priority">Priority</label>
+ <input type="radio" id="priority" name="priority" value="high">
+ <label for="high">High</label>
+ <input type="radio" id="priority" name="priority" value="average">
+ <label for="average">Average</label>
+ <input type="radio" id="priority" name="priority" value="low>
+ <lable for="low">Low</label><br><br>
+ <label for="description">Description</label>
+ <input type="text" id="description" name="description" ><br><br>
+ <div>
+ <button id="button1">Submit</button>
+ <button id="button2">Clear</button>
+ </div>
+</form>
+</body>
+</html>
